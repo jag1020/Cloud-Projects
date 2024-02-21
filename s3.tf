@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tfbucket" {
-  bucket = "my-tf-test-bucket"
+  bucket = "Jordan-tf-test-bucket"
 
   tags = {
     name = "My bucket"
